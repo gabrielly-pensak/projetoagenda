@@ -1,0 +1,92 @@
+
+body{
+    background-color: #9480db;
+    font-family: 'Barlow', sans-serif;
+}
+main{
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    margin: 20px 0px;
+    color: #06010e;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+}
+
+.container-radio{
+    display: flex;
+}
+
+.container-radio div{
+    padding: 10px;
+}
+
+form label{
+    color: #202cd3;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+form input{
+    border-radius: 10px;
+    border: 3px solid #333B1E;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+form input[type='file']{
+    color: #FFFFFF;
+}
+
+form input::file-selector-button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+form input:focus{
+    border: 3px solid #EBC181;
+    outline: none;
+}
+
+table{
+    width: 90%;
+    margin: auto 0;
+}
+table, th, td{
+    border: 1px solid #502ee4;
+}
+
+table th{
+    padding: 11px 0 11px;
+    background-color: #7d26f0;
+    color: #05000c;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding: 8px;
+}
+
+table tr{
+    border: 1px solid #ddd;
+}
+
+table td{
+    color: #FFF;
+    font-size: 18px;
+    padding: 8px;
+}
